@@ -10,5 +10,6 @@ document.onkeydown = function(event)
       if(userGuess === letters);
       console.log (userGuess)
       console.log ("Opponent guesses " + computerGuess);
-      else {alert ("Invalid key. Please choose a letter.");}
+      else alert "Invalid key. Please choose a letter."
+      
   }
